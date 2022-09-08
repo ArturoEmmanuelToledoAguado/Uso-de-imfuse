@@ -14,8 +14,8 @@ La función <a href="https://la.mathworks.com/help/images/ref/imrotate.html?sear
 
 <code>imgrotada=imrotate(img,ángulo)</code>
 
-## Suma de dos imágenes
-Con la función <a href="https://la.mathworks.com/help/images/ref/imadd.html">**imadd**</a> se pueden sumar dos imágenes, pero para que la suma se pueda realizar, *las dos imágenes deben ser del mismo tamaño*
+## Suma de dos imágenes usando imfuse
+Con la función <a href="https://la.mathworks.com/help/images/ref/imfuse.html?s_tid=doc_ta">**imfuse**</a> se pueden sumar dos imágenes, pero para que la suma se pueda realizar, *las dos imágenes deben ser del mismo tamaño*
 
 <code>sum=imadd(img1,img2)</code>
 
