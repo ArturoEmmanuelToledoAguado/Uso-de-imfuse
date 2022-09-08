@@ -59,7 +59,7 @@ function imgFus=Comp(f,c,fr,cr,imgRot,img)
         imgr=imresize(img,[fr cr/3]);
         imgFus=imfuse(imgr,imgRot,'blend');
     else
-        imgr=imresize(img,[f c/3]);
-        imgFus=imfuse(imgr,imgRot,'blend');
+        imgr=imresize(imgRot,[f c/3]);
+        imgFus=imfuse(imgr,img,'blend');
     end
 end
